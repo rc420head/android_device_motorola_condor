@@ -26,7 +26,7 @@ TARGET_CPU_VARIANT 	:= krait
 TARGET_NO_BOOTLOADER 	:= true
 
 BOARD_KERNEL_SEPARATED_DT := true
-BOARD_CUSTOM_BOOTIMG_MK   := device/moto/condor/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK   := device/motorola/condor/mkbootimg.mk
 TARGET_KERNEL_SOURCE 	  := kernel/motorola/condor
 TARGET_KERNEL_CONFIG 	  := msm8610_defconfig
 BOARD_KERNEL_BASE         := 0x00000000
@@ -76,7 +76,7 @@ AUDIO_FEATURE_DYNAMIC_VOLUME_MIXER := true
 # Bluetooth
 BOARD_HAVE_BLUETOOTH 		:= true
 BOARD_HAVE_BLUETOOTH_QCOM 	:= true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/moto/condor/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/motorola/condor/bluetooth
 
 #Revocery configs
 TARGET_USERIMAGES_USE_EXT4 	   := true

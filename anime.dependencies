@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "kernel-msm",
+    "target_path": "kernel/motorola/condor",
+    "revision": "kitkat-mr1-rel-condor"
+  },
+{
+    "repository": "android_vendor_motorola",
+    "target_path": "vendor/motorola/condor",
+    "revision": "cm-11.0"
+  }
+]
+
+
+
