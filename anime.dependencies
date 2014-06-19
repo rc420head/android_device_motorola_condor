@@ -11,7 +11,7 @@
   },
   {
     "repository": "android_vendor_motorola",
-    "target_path": "vendor/motorola/condor",
+    "target_path": "vendor/motorola",
     "revision": "cm-11.0"
   }
 ]
