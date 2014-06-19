@@ -14,4 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_condor.mk
+    $(LOCAL_DIR)/anime_condor.mk    \
+	$(LOCAL_DIR)/full_condor.mk
