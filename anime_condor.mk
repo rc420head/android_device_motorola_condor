@@ -10,6 +10,10 @@ $(call inherit-product, vendor/Anime/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/motorola/condor/full_condor.mk)
 
+# Boot animation
+TARGET_SCREEN_WIDTH := 540
+TARGET_SCREEN_HEIGHT := 960
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := condor
 PRODUCT_NAME := anime_condor
